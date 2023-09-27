@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(66, 64, 64);
+  color: white;
+}
+.card {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 30%;
+  height: 30%;
+}
+.delete {
+  background-color: red;
+}
+.edit {
+  background-color: green;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+
+.delete,
+.edit {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
